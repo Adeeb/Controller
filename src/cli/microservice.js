@@ -144,7 +144,7 @@ class Microservice extends BaseCLIHandler {
         group: [constants.CMD_UPDATE]
       },
       {
-        name: 'cleanUp', alias: 'z', type: Boolean, description: 'Delete microservice with cleanup',
+        name: 'clean-up', alias: 'z', type: Boolean, description: 'Delete microservice with cleanup',
         group: [constants.CMD_REMOVE]
       },
       {
